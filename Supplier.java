@@ -67,3 +67,66 @@ public class Customer {
 
 
 }
+
+
+
+/**
+ * Class Supplier
+ */
+public class Supplier {
+
+  //
+  // Fields
+  //
+
+  private void Product_supply;
+  
+  //
+  // Constructors
+  //
+  public Supplier () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of Product_supply
+   * @param newVar the new value of Product_supply
+   */
+  private void setProduct_supply (void newVar) {
+    Product_supply = newVar;
+  }
+
+  /**
+   * Get the value of Product_supply
+   * @return the value of Product_supply
+   */
+  private void getProduct_supply () {
+    return Product_supply;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void Available_product()
+  {
+  }
+
+
+  /**
+   */
+  public void Money_Transfer()
+  {
+  }
+
+
+}
