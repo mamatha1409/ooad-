@@ -1,6 +1,93 @@
 
 
 /**
+ * Class Central_System
+ */
+public class Central_System {
+
+  //
+  // Fields
+  //
+
+  private void store;
+  private void Update;
+  
+  //
+  // Constructors
+  //
+  public Central_System () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of store
+   * @param newVar the new value of store
+   */
+  private void setStore (void newVar) {
+    store = newVar;
+  }
+
+  /**
+   * Get the value of store
+   * @return the value of store
+   */
+  private void getStore () {
+    return store;
+  }
+
+  /**
+   * Set the value of Update
+   * @param newVar the new value of Update
+   */
+  private void setUpdate (void newVar) {
+    Update = newVar;
+  }
+
+  /**
+   * Get the value of Update
+   * @return the value of Update
+   */
+  private void getUpdate () {
+    return Update;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void Storing()
+  {
+  }
+
+
+  /**
+   */
+  public void Updating()
+  {
+  }
+
+
+  /**
+   */
+  public void Processing()
+  {
+  }
+
+
+}
+
+
+
+/**
  * Class Customer
  */
 public class Customer {
@@ -9,7 +96,8 @@ public class Customer {
   // Fields
   //
 
-  private void Order_Product_Quality;
+  private void name;
+  private void purchase_product;
   
   //
   // Constructors
@@ -26,19 +114,35 @@ public class Customer {
   //
 
   /**
-   * Set the value of Order_Product_Quality
-   * @param newVar the new value of Order_Product_Quality
+   * Set the value of name
+   * @param newVar the new value of name
    */
-  private void setOrder_Product_Quality (void newVar) {
-    Order_Product_Quality = newVar;
+  private void setName (void newVar) {
+    name = newVar;
   }
 
   /**
-   * Get the value of Order_Product_Quality
-   * @return the value of Order_Product_Quality
+   * Get the value of name
+   * @return the value of name
    */
-  private void getOrder_Product_Quality () {
-    return Order_Product_Quality;
+  private void getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of purchase_product
+   * @param newVar the new value of purchase_product
+   */
+  private void setPurchase_product (void newVar) {
+    purchase_product = newVar;
+  }
+
+  /**
+   * Get the value of purchase_product
+   * @return the value of purchase_product
+   */
+  private void getPurchase_product () {
+    return purchase_product;
   }
 
   //
@@ -47,21 +151,21 @@ public class Customer {
 
   /**
    */
-  public void Payment()
+  public void payment()
   {
   }
 
 
   /**
    */
-  public void Deliver()
+  public void feedback()
   {
   }
 
 
   /**
    */
-  public void Transport()
+  public void customer()
   {
   }
 
